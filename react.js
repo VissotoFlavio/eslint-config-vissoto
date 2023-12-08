@@ -27,12 +27,15 @@ module.exports = {
     rules: {
         "react/self-closing-comp": "error",
         'prettier/prettier': ["error", {
-            'printWidth': 100,
             'tabWidth': 2,
+            'useTabs': false,
             'singleQuote': true,
-            'trailingComma': 'all',
-            'arrowParens': 'always',
             'semi': true,
+            'bracketSpacing': true,
+            'arrowParens': 'always',
+            'trailingComma': 'all',
+            'bracketSameLine': true,
+            'printWidth': 100,
             'endOfLine': 'auto',
         }],
         'react/react-in-jsx-scope': 'off',
