@@ -37,7 +37,7 @@ module.exports = {
             'trailingComma': 'all',
             'bracketSameLine': true,
             'printWidth': 100,
-            'endOfLine': 'auto',
+            'endOfLine': 'off',
         }],
         'react/react-in-jsx-scope': 'off',
         'react/prop-types': 'off',
